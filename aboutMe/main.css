@@ -1,17 +1,42 @@
+* {
+    margin:0;
+}
 h1 {
     font-size: 24px;
     color: maroon;
     text-emphasis: em;
 }
 
-h3 {
-
+p {
+    margin: 1em 0 1em 0;
 }
 
 header {
 
 }
 
-h2 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', "Arial";
+#wrapper {
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+
+#leftcolumn {
+    width: 45%;
+    float: left;
+    background-color: blueviolet;
+    margin-right: 3em;
+    padding:1em;
+}
+
+#rightcolumn {
+    background-color: aquamarine;
+    padding:3em;
+    float: right;
+}
+#quiz {
+    
+    margin-top: 5em;
+}
+footer {
+    clear:both;
 }
